@@ -52,6 +52,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="insertIntoOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insertIntoOrder.Designer.cs">
+      <DependentUpon>insertIntoOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insertIntoUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insertIntoUser.Designer.cs">
+      <DependentUpon>insertIntoUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="MiniMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insertIntoUser.resx">
+      <DependentUpon>insertIntoUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MiniMenu.resx">
       <DependentUpon>MiniMenu.cs</DependentUpon>

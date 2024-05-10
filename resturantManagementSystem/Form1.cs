@@ -20,22 +20,19 @@ namespace resturantManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=OSAMA-LABTOP;Initial Catalog=MyDb;Integrated Security=True";
-            SqlConnection conn = new SqlConnection(connectionString);
-            conn.Open();
-            string firstName = label1.Text;
-            string secondName = label2.Text;
-            string age = label3.Text;
-            string query = "insert into person values ('" + firstName + "','" + secondName + "'," + age + ")";
-            SqlCommand cmd = new SqlCommand(query, conn);
-            cmd.ExecuteNonQuery();
-            conn.Close();
-            MessageBox.Show("data has been saved");
+            insertIntoOrder user = new insertIntoOrder();
+            user.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            insertIntoUser user = new insertIntoUser();
+            user.Show();
         }
     }
 }
