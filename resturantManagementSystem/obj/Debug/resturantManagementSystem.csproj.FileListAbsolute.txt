@@ -19,3 +19,14 @@ D:\fcai\second year\second term\dataBase\Database-Management-System\resturantMan
 D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.csproj.CoreCompileInputs.cache
 D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.exe
 D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.pdb
+D:\Database-Management-System\resturantManagementSystem\bin\Debug\resturantManagementSystem.exe.config
+D:\Database-Management-System\resturantManagementSystem\bin\Debug\resturantManagementSystem.exe
+D:\Database-Management-System\resturantManagementSystem\bin\Debug\resturantManagementSystem.pdb
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.csproj.AssemblyReference.cache
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.Form1.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.MiniMenu.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.Properties.Resources.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.csproj.GenerateResource.cache
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.csproj.CoreCompileInputs.cache
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.exe
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.pdb
