@@ -8,3 +8,14 @@ D:\fcai\second year\second term\dataBase\Database Project\resturantManagementSys
 D:\fcai\second year\second term\dataBase\Database Project\resturantManagementSystem\obj\Debug\resturantManagementSystem.csproj.CoreCompileInputs.cache
 D:\fcai\second year\second term\dataBase\Database Project\resturantManagementSystem\obj\Debug\resturantManagementSystem.exe
 D:\fcai\second year\second term\dataBase\Database Project\resturantManagementSystem\obj\Debug\resturantManagementSystem.pdb
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\bin\Debug\resturantManagementSystem.exe.config
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\bin\Debug\resturantManagementSystem.exe
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\bin\Debug\resturantManagementSystem.pdb
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.csproj.AssemblyReference.cache
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.Form1.resources
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.MiniMenu.resources
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.Properties.Resources.resources
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.csproj.GenerateResource.cache
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.csproj.CoreCompileInputs.cache
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.exe
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.pdb

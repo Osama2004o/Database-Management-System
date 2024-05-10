@@ -32,5 +32,10 @@ namespace resturantManagementSystem
             conn.Close();
             MessageBox.Show("data has been saved");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
