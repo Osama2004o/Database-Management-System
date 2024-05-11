@@ -51,7 +51,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(134, 188);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(223, 77);
+            this.button1.Size = new System.Drawing.Size(240, 77);
             this.button1.TabIndex = 1;
             this.button1.Text = "insertIntoTable";
             this.button1.UseVisualStyleBackColor = true;
@@ -62,7 +62,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(550, 188);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(223, 77);
+            this.button2.Size = new System.Drawing.Size(245, 77);
             this.button2.TabIndex = 2;
             this.button2.Text = "deleteFromTable";
             this.button2.UseVisualStyleBackColor = true;
@@ -72,7 +72,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(134, 290);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(223, 77);
+            this.button3.Size = new System.Drawing.Size(240, 77);
             this.button3.TabIndex = 3;
             this.button3.Text = "updateTable";
             this.button3.UseVisualStyleBackColor = true;
@@ -82,20 +82,22 @@
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(550, 290);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(223, 77);
+            this.button4.Size = new System.Drawing.Size(245, 77);
             this.button4.TabIndex = 4;
             this.button4.Text = "showData";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(268, 389);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(367, 77);
+            this.button5.Size = new System.Drawing.Size(401, 77);
             this.button5.TabIndex = 5;
             this.button5.Text = "showDataMoreThanOneTable";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // MiniMenu
             // 

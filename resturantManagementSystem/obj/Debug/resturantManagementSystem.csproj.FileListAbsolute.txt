@@ -30,3 +30,6 @@ D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManag
 D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.csproj.CoreCompileInputs.cache
 D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.exe
 D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.pdb
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.insertIntoOrder.resources
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.insertIntoUser.resources
+D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.show_Data.resources

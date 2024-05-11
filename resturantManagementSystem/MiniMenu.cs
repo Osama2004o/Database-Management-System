@@ -27,5 +27,16 @@ namespace resturantManagementSystem
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            show_Data show_Data = new show_Data();
+            show_Data.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
