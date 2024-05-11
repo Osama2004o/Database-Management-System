@@ -25,8 +25,15 @@ namespace resturantManagementSystem
             string connectionString = "Data Source="+serverName+";Initial Catalog="+dataBaseName+";Integrated Security=True";
             SqlConnection conn = new SqlConnection(connectionString);
             conn.Open();
-            // string 
-            string query = "insert into [User] (UserID, Email, [Role],Fname,Lname,[password],UserName,phone) values (1,'ahmedsaber22@gmail.com','customer','Ahmed','Saber','ahmed123456','ahmedsaber1',0106487123)"
+            string userid = tbUserId.Text;
+            string email = tbEmail.Text;
+            string role = tbRole.Text;
+            string fname = tbFname.Text;
+            string lname = tbLname.Text;
+            string password = tbPassword.Text;
+            string username = tbUserName.Text;
+            string phone = tbPhone.Text;
+            string query = "insert into [User] (UserID, Email, [Role],Fname,Lname,[password],UserName,phone) values (" + userid + "," + email + "," + role + "," + fname + "," + lname + "," + password + "," + username + "," + phone + ")";
             SqlCommand cmd = new SqlCommand(query, conn);
             cmd.ExecuteNonQuery();
             conn.Close();
