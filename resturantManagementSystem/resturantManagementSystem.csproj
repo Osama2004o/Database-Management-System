@@ -52,11 +52,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="insertIntoMenuItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insertIntoMenuItem.Designer.cs">
+      <DependentUpon>insertIntoMenuItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="insertIntoOrder.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="insertIntoOrder.Designer.cs">
       <DependentUpon>insertIntoOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="insertIntoReseravtionTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="insertIntoReseravtionTable.Designer.cs">
+      <DependentUpon>insertIntoReseravtionTable.cs</DependentUpon>
     </Compile>
     <Compile Include="insertIntoUser.cs">
       <SubType>Form</SubType>
@@ -81,8 +93,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="insertIntoMenuItem.resx">
+      <DependentUpon>insertIntoMenuItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="insertIntoOrder.resx">
       <DependentUpon>insertIntoOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="insertIntoReseravtionTable.resx">
+      <DependentUpon>insertIntoReseravtionTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="insertIntoUser.resx">
       <DependentUpon>insertIntoUser.cs</DependentUpon>

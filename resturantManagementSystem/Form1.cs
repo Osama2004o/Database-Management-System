@@ -34,5 +34,17 @@ namespace resturantManagementSystem
             insertIntoUser user = new insertIntoUser();
             user.Show();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            insertIntoMenuItem item = new insertIntoMenuItem();
+            item.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            insertIntoReseravtionTable table = new insertIntoReseravtionTable();
+            table.Show();
+        }
     }
 }
