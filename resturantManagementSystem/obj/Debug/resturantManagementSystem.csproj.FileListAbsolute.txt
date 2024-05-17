@@ -36,3 +36,10 @@ D:\fcai\second year\second term\dataBase\Database-Management-System\resturantMan
 D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.insertIntoMenuItem.resources
 D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.insertIntoReseravtionTable.resources
 D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.Number_of__orders_per_date.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.insertIntoMenuItem.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.insertIntoOrder.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.insertIntoReseravtionTable.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.insertIntoUser.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.Number_of__orders_per_date.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.show_Data.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.About.resources

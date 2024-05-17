@@ -39,5 +39,21 @@ namespace resturantManagementSystem
             Number_of__orders_per_date opd = new Number_of__orders_per_date();
             opd.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void whatToDo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            About about = new About();
+            about.Show();
+        }
     }
 }
