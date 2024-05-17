@@ -36,7 +36,8 @@ namespace resturantManagementSystem
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Number_of__orders_per_date opd = new Number_of__orders_per_date();
+            opd.Show();
         }
     }
 }

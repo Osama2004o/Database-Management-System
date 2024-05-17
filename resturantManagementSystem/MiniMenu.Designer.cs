@@ -95,7 +95,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(401, 77);
             this.button5.TabIndex = 5;
-            this.button5.Text = "showDataMoreThanOneTable";
+            this.button5.Text = "Report";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
