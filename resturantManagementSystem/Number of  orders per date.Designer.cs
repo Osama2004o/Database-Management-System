@@ -130,6 +130,8 @@
             this.Controls.Add(this.tbFrom);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Number_of__orders_per_date";
             this.Text = "Number_of__orders_per_date";
             this.Load += new System.EventHandler(this.Number_of__orders_per_date_Load);

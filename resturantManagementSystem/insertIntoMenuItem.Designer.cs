@@ -137,6 +137,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbItemID);
             this.Controls.Add(this.bSave);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "insertIntoMenuItem";
             this.Text = "insertIntoMenuItem";
             this.ResumeLayout(false);

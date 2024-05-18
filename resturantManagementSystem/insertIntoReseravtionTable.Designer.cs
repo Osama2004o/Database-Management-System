@@ -161,6 +161,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbReservationID);
             this.Controls.Add(this.bSave);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "insertIntoReseravtionTable";
             this.Text = "insertIntoReseravtionTable";
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();

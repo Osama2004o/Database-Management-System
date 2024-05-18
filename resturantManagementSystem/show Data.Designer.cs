@@ -102,6 +102,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbTables);
             this.Controls.Add(this.dgView);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "show_Data";
             this.Text = "show_Data";
             this.Load += new System.EventHandler(this.show_Data_Load);
