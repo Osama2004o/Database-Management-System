@@ -108,6 +108,24 @@
     <Compile Include="show Data.Designer.cs">
       <DependentUpon>show Data.cs</DependentUpon>
     </Compile>
+    <Compile Include="update reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update reservation.Designer.cs">
+      <DependentUpon>update reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update user.Designer.cs">
+      <DependentUpon>update user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update.Designer.cs">
+      <DependentUpon>update.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +164,15 @@
     </Compile>
     <EmbeddedResource Include="show Data.resx">
       <DependentUpon>show Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update reservation.resx">
+      <DependentUpon>update reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update user.resx">
+      <DependentUpon>update user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update.resx">
+      <DependentUpon>update.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

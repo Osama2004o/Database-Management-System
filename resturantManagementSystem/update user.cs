@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace resturantManagementSystem
 {
-    public partial class insertIntoOrder : Form
+    public partial class update_user : Form
     {
-        public insertIntoOrder()
+        public update_user()
         {
             InitializeComponent();
         }
 
-        private void save_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             string serverName = "OSAMA-LABTOP"; // enter your server name
             string dataBaseName = "MyDb"; // enter your database name
@@ -27,21 +27,26 @@ namespace resturantManagementSystem
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "INSERT INTO [Order] (OrderID, OrderDate, UserID, OrderStatus, price) VALUES (@OrderID, @OrderDate, @UserID, @OrderStatus, @Price)";
+
+                string userID = tbUserId.Text;
+                string email = tbEmail.Text;
+                string fname = tbFname.Text;
+
+                string query = @"UPDATE [User]
+                     SET Email = @Email, Fname = @Fname
+                     WHERE UserID = @UserID;";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@OrderID", tbOrderId.Text);
-                    cmd.Parameters.AddWithValue("@OrderDate", DateTime.Parse(tbOrderDate.Text));
-                    cmd.Parameters.AddWithValue("@UserID", tbUserID.Text);
-                    cmd.Parameters.AddWithValue("@OrderStatus", tbOrderStatus.Text);
-                    cmd.Parameters.AddWithValue("@Price", decimal.Parse(tbPrice.Text));
+                    cmd.Parameters.AddWithValue("@UserID", userID);
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    cmd.Parameters.AddWithValue("@Fname", fname);
 
                     cmd.ExecuteNonQuery();
                 }
             }
 
-            MessageBox.Show("Data has been saved");
+            MessageBox.Show("Data has been updated");
         }
     }
 }

@@ -42,7 +42,8 @@ namespace resturantManagementSystem
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            update update = new update();
+            update.Show();
         }
 
         private void whatToDo_Click(object sender, EventArgs e)

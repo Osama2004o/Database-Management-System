@@ -8,17 +8,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace resturantManagementSystem
 {
-    public partial class insertIntoOrder : Form
+    public partial class update_reservation : Form
     {
-        public insertIntoOrder()
+        public update_reservation()
         {
             InitializeComponent();
         }
 
-        private void save_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             string serverName = "OSAMA-LABTOP"; // enter your server name
             string dataBaseName = "MyDb"; // enter your database name
@@ -27,21 +28,26 @@ namespace resturantManagementSystem
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "INSERT INTO [Order] (OrderID, OrderDate, UserID, OrderStatus, price) VALUES (@OrderID, @OrderDate, @UserID, @OrderStatus, @Price)";
+
+                string reservationID = tbReservationId.Text;
+                string reservationDate = tbReservationDate.Text;
+                string status = tbSatus.Text;
+
+                string query = @"UPDATE TableReservation
+                     SET ReservationDate = @reservationDate, [status] = @status
+                     WHERE ReservationID = @reservationID;";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@OrderID", tbOrderId.Text);
-                    cmd.Parameters.AddWithValue("@OrderDate", DateTime.Parse(tbOrderDate.Text));
-                    cmd.Parameters.AddWithValue("@UserID", tbUserID.Text);
-                    cmd.Parameters.AddWithValue("@OrderStatus", tbOrderStatus.Text);
-                    cmd.Parameters.AddWithValue("@Price", decimal.Parse(tbPrice.Text));
+                    cmd.Parameters.AddWithValue("@reservationID", reservationID);
+                    cmd.Parameters.AddWithValue("@reservationDate", DateTime.Parse(reservationDate));
+                    cmd.Parameters.AddWithValue("@status", status);
 
                     cmd.ExecuteNonQuery();
                 }
             }
 
-            MessageBox.Show("Data has been saved");
+            MessageBox.Show("Data has been updated");
         }
     }
 }
