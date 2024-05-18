@@ -43,3 +43,4 @@ D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManag
 D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.Number_of__orders_per_date.resources
 D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.show_Data.resources
 D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.About.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.Delete.resources

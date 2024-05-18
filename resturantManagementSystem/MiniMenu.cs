@@ -55,5 +55,11 @@ namespace resturantManagementSystem
             About about = new About();
             about.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Delete delete = new Delete();
+            delete.Show();
+        }
     }
 }
