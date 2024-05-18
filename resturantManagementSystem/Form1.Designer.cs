@@ -39,48 +39,48 @@
             // btOrder
             // 
             this.btOrder.BackColor = System.Drawing.Color.SpringGreen;
-            this.btOrder.Font = new System.Drawing.Font("Agrandir Tight", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btOrder.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btOrder.Location = new System.Drawing.Point(59, 142);
             this.btOrder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btOrder.Name = "btOrder";
             this.btOrder.Size = new System.Drawing.Size(206, 81);
             this.btOrder.TabIndex = 6;
-            this.btOrder.Text = "[Order]";
+            this.btOrder.Text = "Order";
             this.btOrder.UseVisualStyleBackColor = false;
             this.btOrder.Click += new System.EventHandler(this.button1_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Agrandir Tight", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(243, 38);
+            this.label5.Location = new System.Drawing.Point(197, 43);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(266, 48);
+            this.label5.Size = new System.Drawing.Size(329, 41);
             this.label5.TabIndex = 8;
             this.label5.Text = "Choose the table";
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.SpringGreen;
-            this.button2.Font = new System.Drawing.Font("Agrandir Tight", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(487, 142);
+            this.button2.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(431, 142);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(206, 81);
             this.button2.TabIndex = 9;
-            this.button2.Text = "[User]";
+            this.button2.Text = "User";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.SpringGreen;
-            this.button1.Font = new System.Drawing.Font("Agrandir Tight", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(59, 276);
+            this.button1.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(37, 276);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(206, 81);
+            this.button1.Size = new System.Drawing.Size(253, 81);
             this.button1.TabIndex = 10;
             this.button1.Text = "Menu Item";
             this.button1.UseVisualStyleBackColor = false;
@@ -89,11 +89,11 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.SpringGreen;
-            this.button3.Font = new System.Drawing.Font("Agrandir Tight", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(487, 276);
+            this.button3.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(412, 276);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(222, 81);
+            this.button3.Size = new System.Drawing.Size(256, 81);
             this.button3.TabIndex = 11;
             this.button3.Text = "Reservation";
             this.button3.UseVisualStyleBackColor = false;
@@ -104,14 +104,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(774, 441);
+            this.ClientSize = new System.Drawing.Size(711, 441);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btOrder);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Insert";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -49,3 +49,6 @@ D:\fcai\second year\second term\dataBase\Database-Management-System\resturantMan
 D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.update_reservation.resources
 D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.update.resources
 D:\fcai\second year\second term\dataBase\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.update_user.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.update_reservation.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.update_user.resources
+D:\Database-Management-System\resturantManagementSystem\obj\Debug\resturantManagementSystem.update.resources

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(update_reservation));
             this.button1 = new System.Windows.Forms.Button();
             this.tbReservationDate = new System.Windows.Forms.TextBox();
             this.tbReservationId = new System.Windows.Forms.TextBox();
@@ -39,67 +40,83 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(382, 263);
+            this.button1.BackColor = System.Drawing.Color.SpringGreen;
+            this.button1.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(604, 114);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(167, 67);
             this.button1.TabIndex = 0;
-            this.button1.Text = "update";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Update";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tbReservationDate
             // 
-            this.tbReservationDate.Location = new System.Drawing.Point(421, 68);
+            this.tbReservationDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.tbReservationDate.Location = new System.Drawing.Point(361, 125);
+            this.tbReservationDate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbReservationDate.Name = "tbReservationDate";
-            this.tbReservationDate.Size = new System.Drawing.Size(100, 22);
+            this.tbReservationDate.Size = new System.Drawing.Size(204, 48);
             this.tbReservationDate.TabIndex = 1;
             // 
             // tbReservationId
             // 
-            this.tbReservationId.Location = new System.Drawing.Point(421, 157);
+            this.tbReservationId.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.tbReservationId.Location = new System.Drawing.Point(361, 45);
+            this.tbReservationId.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbReservationId.Name = "tbReservationId";
-            this.tbReservationId.Size = new System.Drawing.Size(100, 22);
+            this.tbReservationId.Size = new System.Drawing.Size(204, 48);
             this.tbReservationId.TabIndex = 2;
             // 
             // tbSatus
             // 
-            this.tbSatus.Location = new System.Drawing.Point(421, 113);
+            this.tbSatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.tbSatus.Location = new System.Drawing.Point(361, 206);
+            this.tbSatus.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbSatus.Name = "tbSatus";
-            this.tbSatus.Size = new System.Drawing.Size(100, 22);
+            this.tbSatus.Size = new System.Drawing.Size(204, 48);
             this.tbSatus.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(244, 78);
+            this.label1.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(12, 127);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 16);
+            this.label1.Size = new System.Drawing.Size(333, 41);
             this.label1.TabIndex = 4;
-            this.label1.Text = "reservationDate";
+            this.label1.Text = "Reservation Date";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(244, 119);
+            this.label2.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(12, 208);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 16);
+            this.label2.Size = new System.Drawing.Size(132, 41);
             this.label2.TabIndex = 5;
-            this.label2.Text = "status";
+            this.label2.Text = "Status";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(244, 160);
+            this.label3.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(12, 45);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 16);
+            this.label3.Size = new System.Drawing.Size(287, 41);
             this.label3.TabIndex = 6;
-            this.label3.Text = "reservation id";
+            this.label3.Text = "Reservation ID";
             // 
             // update_reservation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(792, 309);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -107,8 +124,10 @@
             this.Controls.Add(this.tbReservationId);
             this.Controls.Add(this.tbReservationDate);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "update_reservation";
-            this.Text = "update_reservation";
+            this.Text = "Update Reservation";
             this.ResumeLayout(false);
             this.PerformLayout();
 

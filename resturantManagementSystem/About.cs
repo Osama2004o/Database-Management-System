@@ -55,7 +55,17 @@ namespace resturantManagementSystem
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            Process.Start("https://github.com/hager447");
+        }
 
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/haneen562");
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://github.com/Osama2004o/Database-Management-System");
         }
     }
 }

@@ -48,5 +48,10 @@ namespace resturantManagementSystem
 
             MessageBox.Show("Data has been updated");
         }
+
+        private void update_user_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

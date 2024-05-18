@@ -53,5 +53,10 @@ namespace resturantManagementSystem
 
             MessageBox.Show("Data has been saved");
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
