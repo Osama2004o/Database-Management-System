@@ -54,7 +54,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Gotham", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(197, 43);
+            this.label5.Location = new System.Drawing.Point(172, 48);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(329, 41);
             this.label5.TabIndex = 8;

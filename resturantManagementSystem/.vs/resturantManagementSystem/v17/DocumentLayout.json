@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "D:\\Database-Management-System\\resturantManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|d:\\database-management-system\\resturantmanagementsystem\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|d:\\database-management-system\\resturantmanagementsystem\\minimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:minimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|d:\\database-management-system\\resturantmanagementsystem\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|d:\\database-management-system\\resturantmanagementsystem\\update user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:update user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|d:\\database-management-system\\resturantmanagementsystem\\update reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:update reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|d:\\database-management-system\\resturantmanagementsystem\\show data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:show data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|d:\\database-management-system\\resturantmanagementsystem\\minimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:minimenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|D:\\Database-Management-System\\resturantManagementSystem\\insertintoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:insertintoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|d:\\database-management-system\\resturantmanagementsystem\\number of  orders per date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:number of  orders per date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|D:\\Database-Management-System\\resturantManagementSystem\\insertintouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:insertintouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|d:\\database-management-system\\resturantmanagementsystem\\insertintoreseravtiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:insertintoreseravtiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|D:\\Database-Management-System\\resturantManagementSystem\\insertintoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D6544338-664E-4113-8CF5-E7FF76C704CA}|resturantManagementSystem.csproj|solutionrelative:insertintoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,43 +54,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "About.cs [Design]",
-              "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\About.cs",
-              "RelativeDocumentMoniker": "About.cs",
-              "ToolTip": "D:\\Database-Management-System\\resturantManagementSystem\\About.cs [Design]",
-              "RelativeToolTip": "About.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "update.cs [Design]",
+              "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\update.cs",
+              "RelativeDocumentMoniker": "update.cs",
+              "ToolTip": "D:\\Database-Management-System\\resturantManagementSystem\\update.cs [Design]",
+              "RelativeToolTip": "update.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:07:11.105Z",
+              "WhenOpened": "2024-05-19T12:15:14.528Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "update user.cs [Design]",
+              "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\update user.cs",
+              "RelativeDocumentMoniker": "update user.cs",
+              "ToolTip": "D:\\Database-Management-System\\resturantManagementSystem\\update user.cs [Design]",
+              "RelativeToolTip": "update user.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:15:07.473Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "update reservation.cs [Design]",
+              "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\update reservation.cs",
+              "RelativeDocumentMoniker": "update reservation.cs",
+              "ToolTip": "D:\\Database-Management-System\\resturantManagementSystem\\update reservation.cs [Design]",
+              "RelativeToolTip": "update reservation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:15:01.302Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "show Data.cs [Design]",
               "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\show Data.cs",
               "RelativeDocumentMoniker": "show Data.cs",
               "ToolTip": "D:\\Database-Management-System\\resturantManagementSystem\\show Data.cs [Design]",
               "RelativeToolTip": "show Data.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:02:15.665Z",
+              "WhenOpened": "2024-05-19T12:14:55.093Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Number of  orders per date.cs [Design]",
+              "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\Number of  orders per date.cs",
+              "RelativeDocumentMoniker": "Number of  orders per date.cs",
+              "ToolTip": "D:\\Database-Management-System\\resturantManagementSystem\\Number of  orders per date.cs [Design]",
+              "RelativeToolTip": "Number of  orders per date.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:14:45.632Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MiniMenu.cs [Design]",
               "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\MiniMenu.cs",
               "RelativeDocumentMoniker": "MiniMenu.cs",
               "ToolTip": "D:\\Database-Management-System\\resturantManagementSystem\\MiniMenu.cs [Design]",
               "RelativeToolTip": "MiniMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T16:00:42.925Z",
+              "WhenOpened": "2024-05-19T12:14:39.651Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "insertIntoReseravtionTable.cs [Design]",
+              "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\insertIntoReseravtionTable.cs",
+              "RelativeDocumentMoniker": "insertIntoReseravtionTable.cs",
+              "ToolTip": "D:\\Database-Management-System\\resturantManagementSystem\\insertIntoReseravtionTable.cs [Design]",
+              "RelativeToolTip": "insertIntoReseravtionTable.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T12:14:23.047Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "insertIntoOrder.cs [Design]",
               "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\insertIntoOrder.cs",
               "RelativeDocumentMoniker": "insertIntoOrder.cs",
@@ -86,14 +150,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "insertIntoUser.cs [Design]",
               "DocumentMoniker": "D:\\Database-Management-System\\resturantManagementSystem\\insertIntoUser.cs",
               "RelativeDocumentMoniker": "insertIntoUser.cs",
               "ToolTip": "D:\\Database-Management-System\\resturantManagementSystem\\insertIntoUser.cs [Design]",
               "RelativeToolTip": "insertIntoUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T13:48:49.714Z"
+              "WhenOpened": "2024-05-18T13:48:49.714Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
